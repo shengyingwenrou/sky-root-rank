@@ -1,0 +1,308 @@
+[INFO] [20:32:39.875] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :F:\sky_dep_space\spring-mvc-demo\.\config\sqlite3.db
+[ERROR] [20:34:59.812] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.loadDbDriver:121 --> load driver error
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_91]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_91]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_91]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_91]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_91]
+	at com.zzg.mybatis.generator.util.DbUtil.loadDbDriver(DbUtil.java:116) [classes/:na]
+	at com.zzg.mybatis.generator.util.DbUtil.getConnection(DbUtil.java:27) [classes/:na]
+	at com.zzg.mybatis.generator.controller.DbConnectionController.testConnection(DbConnectionController.java:70) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71) [na:1.8.0_91]
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275) [na:1.8.0_91]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1771) [jfxrt.jar:na]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1657) [jfxrt.jar:na]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) [jfxrt.jar:na]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) [jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) [jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) [jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) [jfxrt.jar:na]
+	at javafx.event.Event.fireEvent(Event.java:198) [jfxrt.jar:na]
+	at javafx.scene.Node.fireEvent(Node.java:8411) [jfxrt.jar:na]
+	at javafx.scene.control.Button.fire(Button.java:185) [jfxrt.jar:na]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:182) [jfxrt.jar:na]
+	at com.sun.javafx.scene.control.skin.BehaviorSkinBase$1.handle(BehaviorSkinBase.java:96) [jfxrt.jar:na]
+	at com.sun.javafx.scene.control.skin.BehaviorSkinBase$1.handle(BehaviorSkinBase.java:89) [jfxrt.jar:na]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218) [jfxrt.jar:na]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) [jfxrt.jar:na]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) [jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) [jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) [jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) [jfxrt.jar:na]
+	at javafx.event.Event.fireEvent(Event.java:198) [jfxrt.jar:na]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3757) [jfxrt.jar:na]
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485) [jfxrt.jar:na]
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762) [jfxrt.jar:na]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494) [jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:380) [jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:294) [jfxrt.jar:na]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_91]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$354(GlassViewEventHandler.java:416) [jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:415) [jfxrt.jar:na]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.View.notifyMouse(View.java:937) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191) ~[jfxrt.jar:na]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_91]
+[ERROR] [20:34:59.816] [JavaFX Application Thread] [] com.zzg.mybatis.generator.controller.DbConnectionController.testConnection:73 --> {}
+com.zzg.mybatis.generator.exception.DbDriverLoadingException: 找不到mysql-connector-java-5.1.38.jar驱动
+	at com.zzg.mybatis.generator.util.DbUtil.loadDbDriver(DbUtil.java:122) ~[classes/:na]
+	at com.zzg.mybatis.generator.util.DbUtil.getConnection(DbUtil.java:27) ~[classes/:na]
+	at com.zzg.mybatis.generator.controller.DbConnectionController.testConnection(DbConnectionController.java:70) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_91]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_91]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71) [na:1.8.0_91]
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_91]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_91]
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275) [na:1.8.0_91]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1771) [jfxrt.jar:na]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1657) [jfxrt.jar:na]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) [jfxrt.jar:na]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) [jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) [jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) [jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) [jfxrt.jar:na]
+	at javafx.event.Event.fireEvent(Event.java:198) [jfxrt.jar:na]
+	at javafx.scene.Node.fireEvent(Node.java:8411) [jfxrt.jar:na]
+	at javafx.scene.control.Button.fire(Button.java:185) [jfxrt.jar:na]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:182) [jfxrt.jar:na]
+	at com.sun.javafx.scene.control.skin.BehaviorSkinBase$1.handle(BehaviorSkinBase.java:96) [jfxrt.jar:na]
+	at com.sun.javafx.scene.control.skin.BehaviorSkinBase$1.handle(BehaviorSkinBase.java:89) [jfxrt.jar:na]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218) [jfxrt.jar:na]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) [jfxrt.jar:na]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) [jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) [jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) [jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) [jfxrt.jar:na]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) [jfxrt.jar:na]
+	at javafx.event.Event.fireEvent(Event.java:198) [jfxrt.jar:na]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3757) [jfxrt.jar:na]
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485) [jfxrt.jar:na]
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762) [jfxrt.jar:na]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494) [jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:380) [jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:294) [jfxrt.jar:na]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.8.0_91]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$354(GlassViewEventHandler.java:416) [jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:415) [jfxrt.jar:na]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.View.notifyMouse(View.java:937) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191) ~[jfxrt.jar:na]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_91]
+[INFO] [20:35:11.532] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :F:\sky_dep_space\spring-mvc-demo\.\config\sqlite3.db
+[INFO] [20:35:11.906] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :F:\sky_dep_space\spring-mvc-demo\.\config\sqlite3.db
+[INFO] [20:35:14.137] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :F:\sky_dep_space\spring-mvc-demo\.\config\sqlite3.db
+[INFO] [20:35:14.138] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.loadGeneratorConfigs:182 --> sql: SELECT * FROM generator_config
+[INFO] [20:36:05.035] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :F:\sky_dep_space\spring-mvc-demo\.\config\sqlite3.db
+[INFO] [20:36:05.036] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.loadGeneratorConfigs:182 --> sql: SELECT * FROM generator_config
+[INFO] [20:37:01.235] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:104 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://localhost:3306/sys?useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [20:37:01.235] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getTableNames:44 --> getTableNames, connection url: jdbc:mysql://localhost:3306/sys?useUnicode=true&useSSL=false&characterEncoding=utf8
+[ERROR] [20:37:01.237] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.loadDbDriver:121 --> load driver error
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_91]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_91]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_91]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_91]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_91]
+	at com.zzg.mybatis.generator.util.DbUtil.loadDbDriver(DbUtil.java:116) [classes/:na]
+	at com.zzg.mybatis.generator.util.DbUtil.getConnection(DbUtil.java:27) [classes/:na]
+	at com.zzg.mybatis.generator.util.DbUtil.getTableNames(DbUtil.java:45) [classes/:na]
+	at com.zzg.mybatis.generator.controller.MainUIController.lambda$null$5(MainUIController.java:177) [classes/:na]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[jfxrt.jar:na]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3470) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$ClickGenerator.access$8100(Scene.java:3398) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3766) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485) ~[jfxrt.jar:na]
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:380) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:294) ~[jfxrt.jar:na]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_91]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$354(GlassViewEventHandler.java:416) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:415) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.View.notifyMouse(View.java:937) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191) ~[jfxrt.jar:na]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_91]
+[ERROR] [20:37:01.238] [JavaFX Application Thread] [] com.zzg.mybatis.generator.controller.MainUIController.lambda$null$5:195 --> 找不到mysql-connector-java-5.1.38.jar驱动
+com.zzg.mybatis.generator.exception.DbDriverLoadingException: 找不到mysql-connector-java-5.1.38.jar驱动
+	at com.zzg.mybatis.generator.util.DbUtil.loadDbDriver(DbUtil.java:122) ~[classes/:na]
+	at com.zzg.mybatis.generator.util.DbUtil.getConnection(DbUtil.java:27) ~[classes/:na]
+	at com.zzg.mybatis.generator.util.DbUtil.getTableNames(DbUtil.java:45) ~[classes/:na]
+	at com.zzg.mybatis.generator.controller.MainUIController.lambda$null$5(MainUIController.java:177) ~[classes/:na]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[jfxrt.jar:na]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[jfxrt.jar:na]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$ClickGenerator.postProcess(Scene.java:3470) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$ClickGenerator.access$8100(Scene.java:3398) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3766) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$MouseHandler.access$1500(Scene.java:3485) ~[jfxrt.jar:na]
+	at javafx.scene.Scene.impl_processMouseEvent(Scene.java:1762) ~[jfxrt.jar:na]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2494) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:380) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:294) ~[jfxrt.jar:na]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_91]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$354(GlassViewEventHandler.java:416) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:389) ~[jfxrt.jar:na]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:415) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:555) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.View.notifyMouse(View.java:937) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[jfxrt.jar:na]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191) ~[jfxrt.jar:na]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_91]
+[INFO] [20:41:51.815] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :F:\sky_dep_space\spring-mvc-demo\.\config\sqlite3.db
+[INFO] [20:41:59.164] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:104 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://localhost:3306/sys?useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [20:41:59.165] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getTableNames:44 --> getTableNames, connection url: jdbc:mysql://localhost:3306/sys?useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [20:41:59.167] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.loadDbDriver:118 --> load driver class: com.mysql.jdbc.Driver@420722bc
+[INFO] [20:41:59.167] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:104 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://localhost:3306/sys?useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [20:41:59.825] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnection:38 --> getConnection, connection url: com.mysql.jdbc.JDBC4Connection@3f1b65b9
+[INFO] [20:45:03.092] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :F:\sky_dep_space\spring-mvc-demo\.\config\sqlite3.db
+[INFO] [20:45:03.311] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :F:\sky_dep_space\spring-mvc-demo\.\config\sqlite3.db
+[INFO] [20:45:04.731] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:104 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://localhost:3306/sky_dep?useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [20:45:04.731] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getTableNames:44 --> getTableNames, connection url: jdbc:mysql://localhost:3306/sky_dep?useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [20:45:04.731] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:104 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://localhost:3306/sky_dep?useUnicode=true&useSSL=false&characterEncoding=utf8
+[INFO] [20:45:04.740] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnection:38 --> getConnection, connection url: com.mysql.jdbc.JDBC4Connection@1853e6a7
+[INFO] [20:48:01.604] [JavaFX Application Thread] [] com.zzg.mybatis.generator.controller.MainUIController.saveGeneratorConfig:317 --> user choose name: dep_sky
+[INFO] [20:48:01.606] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :F:\sky_dep_space\spring-mvc-demo\.\config\sqlite3.db
+[INFO] [20:49:51.183] [JavaFX Application Thread] [] com.zzg.mybatis.generator.controller.MainUIController.saveGeneratorConfig:317 --> user choose name: sky1
+[INFO] [20:49:51.185] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :F:\sky_dep_space\spring-mvc-demo\.\config\sqlite3.db
+[INFO] [20:49:52.853] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :F:\sky_dep_space\spring-mvc-demo\.\config\sqlite3.db
+[INFO] [20:49:52.855] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.loadGeneratorConfigs:182 --> sql: SELECT * FROM generator_config
+[INFO] [20:50:03.071] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :F:\sky_dep_space\spring-mvc-demo\.\config\sqlite3.db
+[INFO] [20:50:03.073] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.loadGeneratorConfig:159 --> sql: SELECT * FROM generator_config where name='sky1'
+[INFO] [20:50:35.407] [JavaFX Application Thread] [] com.zzg.mybatis.generator.controller.MainUIController.saveGeneratorConfig:317 --> user choose name: sky2
+[INFO] [20:50:35.408] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConnectionManager.getConnection:20 --> database FilePath :F:\sky_dep_space\spring-mvc-demo\.\config\sqlite3.db
+[INFO] [20:50:43.930] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: file:/F:/sky_dep_space/mybatis-generator-gui/target/classes/logback.xml
+[INFO] [20:50:43.931] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:67 --> connectorLibPath: F:\sky_dep_space\mybatis-generator-gui\target\classes\lib\mysql-connector-java-5.1.38.jar
+[INFO] [20:50:43.934] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:104 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://localhost:3306/sky_dep?useUnicode=true&useSSL=false&characterEncoding=utf8
+[DEBUG] [20:50:44.099] [JavaFX Application Thread] [] org.mybatis.generator.logging.LogFactory.setImplementation:105 --> Logging initialized using 'org.mybatis.generator.logging.slf4j.Slf4jLoggingLogFactory@2f9f4123' adapter.
+[DEBUG] [20:50:44.117] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:506 --> Retrieving column information for table "sky_dep.sys_user"
+[DEBUG] [20:50:44.132] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "id", data type -5, in table "sky_dep..sys_user"
+[DEBUG] [20:50:44.133] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "username", data type 12, in table "sky_dep..sys_user"
+[DEBUG] [20:50:44.134] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "password", data type 1, in table "sky_dep..sys_user"
+[DEBUG] [20:50:44.135] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "email", data type 12, in table "sky_dep..sys_user"
+[DEBUG] [20:50:44.136] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "name", data type 12, in table "sky_dep..sys_user"
+[DEBUG] [20:50:44.136] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "mobile", data type 12, in table "sky_dep..sys_user"
+[DEBUG] [20:50:44.137] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "image_uri", data type 12, in table "sky_dep..sys_user"
+[DEBUG] [20:50:44.139] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "rank", data type 4, in table "sky_dep..sys_user"
+[DEBUG] [20:50:44.140] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "last_login_time", data type 93, in table "sky_dep..sys_user"
+[DEBUG] [20:50:44.141] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "last_login_ip", data type 12, in table "sky_dep..sys_user"
+[DEBUG] [20:50:44.142] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "login_count", data type 4, in table "sky_dep..sys_user"
+[DEBUG] [20:50:44.142] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "disabled", data type -7, in table "sky_dep..sys_user"
+[DEBUG] [20:50:44.143] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "remark", data type 12, in table "sky_dep..sys_user"
+[DEBUG] [20:50:44.143] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "create_time", data type 93, in table "sky_dep..sys_user"
+[INFO] [20:52:53.408] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: file:/F:/sky_dep_space/mybatis-generator-gui/target/classes/logback.xml
+[INFO] [20:52:53.409] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:67 --> connectorLibPath: F:\sky_dep_space\mybatis-generator-gui\target\classes\lib\mysql-connector-java-5.1.38.jar
+[INFO] [20:52:53.409] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:104 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://localhost:3306/sky_dep?useUnicode=true&useSSL=false&characterEncoding=utf8
+[DEBUG] [20:52:53.436] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:506 --> Retrieving column information for table "sky_dep.sys_user"
+[DEBUG] [20:52:53.442] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "id", data type -5, in table "sky_dep..sys_user"
+[DEBUG] [20:52:53.443] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "username", data type 12, in table "sky_dep..sys_user"
+[DEBUG] [20:52:53.444] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "password", data type 1, in table "sky_dep..sys_user"
+[DEBUG] [20:52:53.445] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "email", data type 12, in table "sky_dep..sys_user"
+[DEBUG] [20:52:53.445] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "name", data type 12, in table "sky_dep..sys_user"
+[DEBUG] [20:52:53.446] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "mobile", data type 12, in table "sky_dep..sys_user"
+[DEBUG] [20:52:53.446] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "image_uri", data type 12, in table "sky_dep..sys_user"
+[DEBUG] [20:52:53.447] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "rank", data type 4, in table "sky_dep..sys_user"
+[DEBUG] [20:52:53.448] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "last_login_time", data type 93, in table "sky_dep..sys_user"
+[DEBUG] [20:52:53.451] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "last_login_ip", data type 12, in table "sky_dep..sys_user"
+[DEBUG] [20:52:53.451] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "login_count", data type 4, in table "sky_dep..sys_user"
+[DEBUG] [20:52:53.452] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "disabled", data type -7, in table "sky_dep..sys_user"
+[DEBUG] [20:52:53.452] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "remark", data type 12, in table "sky_dep..sys_user"
+[DEBUG] [20:52:53.453] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "create_time", data type 93, in table "sky_dep..sys_user"
+[INFO] [20:53:20.781] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.ConfigHelper.findConnectorLibPath:215 --> jar resource: file:/F:/sky_dep_space/mybatis-generator-gui/target/classes/logback.xml
+[INFO] [20:53:20.782] [JavaFX Application Thread] [] com.zzg.mybatis.generator.bridge.MybatisGeneratorBridge.generate:67 --> connectorLibPath: F:\sky_dep_space\mybatis-generator-gui\target\classes\lib\mysql-connector-java-5.1.38.jar
+[INFO] [20:53:20.782] [JavaFX Application Thread] [] com.zzg.mybatis.generator.util.DbUtil.getConnectionUrlWithSchema:104 --> getConnectionUrlWithSchema, connection url: jdbc:mysql://localhost:3306/sky_dep?useUnicode=true&useSSL=false&characterEncoding=utf8
+[DEBUG] [20:53:20.817] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:506 --> Retrieving column information for table "sky_dep.sys_user"
+[DEBUG] [20:53:20.823] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "id", data type -5, in table "sky_dep..sys_user"
+[DEBUG] [20:53:20.824] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "username", data type 12, in table "sky_dep..sys_user"
+[DEBUG] [20:53:20.824] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "password", data type 1, in table "sky_dep..sys_user"
+[DEBUG] [20:53:20.824] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "email", data type 12, in table "sky_dep..sys_user"
+[DEBUG] [20:53:20.825] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "name", data type 12, in table "sky_dep..sys_user"
+[DEBUG] [20:53:20.825] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "mobile", data type 12, in table "sky_dep..sys_user"
+[DEBUG] [20:53:20.825] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "image_uri", data type 12, in table "sky_dep..sys_user"
+[DEBUG] [20:53:20.826] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "rank", data type 4, in table "sky_dep..sys_user"
+[DEBUG] [20:53:20.827] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "last_login_time", data type 93, in table "sky_dep..sys_user"
+[DEBUG] [20:53:20.827] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "last_login_ip", data type 12, in table "sky_dep..sys_user"
+[DEBUG] [20:53:20.828] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "login_count", data type 4, in table "sky_dep..sys_user"
+[DEBUG] [20:53:20.828] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "disabled", data type -7, in table "sky_dep..sys_user"
+[DEBUG] [20:53:20.829] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "remark", data type 12, in table "sky_dep..sys_user"
+[DEBUG] [20:53:20.829] [JavaFX Application Thread] [] org.mybatis.generator.internal.db.DatabaseIntrospector.getColumns:563 --> Found column "create_time", data type 93, in table "sky_dep..sys_user"

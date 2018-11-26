@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <!--<bean id="demoService" class="cn.com.demo.impl.DemoServiceImpl"></bean>-->
+
+    <!--<bean id="person" class="cn.com.demo.Person"></bean>-->
+
+
+    <bean id="beanPostProcessor" class="cn.com.demo.MyBeanPostProcessor">
+    </bean>
+
+    <bean id="instantiationAwareBeanPostProcessor" class="cn.com.demo.MyInstantiationAwareBeanPostProcessor">
+    </bean>
+
+    <bean id="beanFactoryPostProcessor" class="cn.com.demo.MyBeanFactoryPostProcessor">
+    </bean>
+
+    <bean id="person" class="cn.com.demo.Person" init-method="myInit"
+          destroy-method="myDestory" scope="singleton" >
+           <property name="name" value="张三"></property>
+            <property name="address" value="广州"></property>
+            <property name="phone" value='15900000000'></property>
+    </bean>
+
+</beans>
+
+
+
+
+
+
+
+

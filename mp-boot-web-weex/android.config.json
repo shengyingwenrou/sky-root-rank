@@ -1,0 +1,6 @@
+{
+  "AppName":"MagicWiFiWeexApp",
+  "AppId":"com.alibaba.weex",
+  "SplashText":"MagicWiFi\nWeex",
+  "WeexBundle":"index.js"
+}

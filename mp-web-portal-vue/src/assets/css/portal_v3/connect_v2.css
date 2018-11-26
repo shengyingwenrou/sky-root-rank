@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/** SVG 联网进度条 **/
+.color_stroke{stroke: #00C196;}
+.st0,.st1,.st2,.st3 {fill: none;stroke-width: 32;stroke-miterlimit: 10;}
+.margin_top_up_40{margin-bottom: -0.611rem;}
+.st0 {stroke-dasharray: 12.1947, 12.1947, 12.1947, 12.1947, 12.1947, 12.1947;}
+.st1 {stroke-dasharray: 50, 90, 200, 30, 40, 0;}
+.st2 {stroke-linecap: square;stroke-dasharray: 120, 20, 110, 20, 140;}
+.st3 {stroke-width: 16;stroke-linecap: square;}
+.title {text-align: center;margin: 0 auto;width: 100%;color: #000000;font-size: 1.94rem;
+  stroke-width: 1;text-anchor: middle;dominant-baseline: middle;}
+.re_connect{margin-top:0.556rem;}
+.show{display: block;}
+.none{display: none;}
+
+.re_connect{width: 5rem; margin: auto;margin-top: 0.556rem;}
+.re_connect button{
+  background: #00C196;
+  border: none;
+  color: #ffffff;
+  border-radius: 0.112rem;
+  width: 100%;
+  height: 1.112rem;
+  font-size: 0.389rem;
+  line-height: 1.112rem;
+}
+
+.connect_result{width: 6.112rem; margin: auto;text-align: center;font-size: 0.389rem;
+  color:#999999;margin-top: 0.5rem;}
+

@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+.bg {
+  background-repeat: no-repeat;
+  width: 42px;
+  background-size: auto 34px;
+  height: 42px;
+  margin-top: 2px;
+  background-position: left;
+  margin-left: 4px;
+}
+
+.download_adress_base {
+  height: 34px;
+  line-height: 34px;
+  border: 1px solid #0091F7;
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.download_adress_first {
+  background: #0091F7;
+  color: #FFFFFF;
+}
+
+.download_adress_second {
+  background: #FFFFFF;
+  color: #0091F7;
+}
+
+.download_note {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.download_note_t {
+  color: red;
+  padding-bottom: 16px;
+  font-size: 13px;
+}
+
+.download_close {
+  background-image: url('~@/assets/portal2/android/image/tk_delete.png');
+  background-size: 16px;
+  width: 32px;
+  background-repeat: no-repeat;
+  height: 32px;
+  margin-top: -170px;
+  margin-left: 220px;
+}
+
+
+.down_load_fixed{
+  width: 100%;
+  position: fixed;
+  z-index: 12;
+
+}
+
+.down_load_content{
+  height: 40px;
+  position: absolute;
+  width: 100%;
+  background: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 2px;
+}
+
+.down_load_intro{
+  text-align: left;
+  width: 5rem;
+}
+
+.down_load_title{
+  font-size: 13px;
+  margin-top: 8px;
+}
+.down_load_desc{
+  font-size: 12px;
+  margin-top:2px;
+}
+
+.app_down{
+  width: 80px;
+}
+
+.down_load_button_index{
+  width: 70px;
+  border-radius: 2px;
+  height: 30px;
+  color: #FFFFFF;
+  font-size: 12px;
+  text-align: center;
+  border: 1px solid #0091F7;
+  background: #0091F7;
+  margin-top: 10px;
+}
+
+.small_logo{
+  background-image: url('http://magicwifi.com.cn/magicwifi/static/portal/v2/images/portal_03.png');
+  background-repeat: no-repeat;
+  width: 1.4rem;
+  background-size: auto 1.2rem;
+  height: 1.4rem;
+  float: left;
+  background-position: left;
+  margin-left: 0.1rem;
+}
+
+.fixed_back{
+  background: #4E4E4E;
+  color: #FFFFFF;
+  height: 44px;
+  width: 100%;
+  z-index: 100;
+}

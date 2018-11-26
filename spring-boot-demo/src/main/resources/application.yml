@@ -1,0 +1,45 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: mp-boot-demo
+  datasource:
+    url: jdbc:mysql://localhost:3306/tdx_weticket
+    username: root
+    password: 123456
+    driverClassName: com.mysql.jdbc.Driver
+    max-active: 20
+    max-idle: 8
+    min-idle: 8
+    initial-size: 10
+  aop:
+    auto: true
+    proxy-target-class: true
+
+  freemarker:
+    allow-request-override: false
+    cache: false
+    check-template-location: true
+    charset: UTF-8
+    content-type: text/html
+    expose-request-attributes: false
+    expose-session-attributes: false
+    expose-spring-macro-helpers: false
+    #prefix:
+    #request-context-attribute=
+    #settings.*=
+    suffix: .ftl
+    template-loader-path: classpath:/templates/ #comma-separated list
+    #view-names= # whitelist of view names that can be resolved
+
+    mybatis:
+      type-aliases-package: com.cn.*.service
+      mapper-locations: classpath*:mybatis/*.xml
+
+# TRACE , DEBUG , INFO , WARN , ERROR , FATAL , OFF
+logging:
+  level:
+    com: debug
+  file: log\myspringboot.log
+

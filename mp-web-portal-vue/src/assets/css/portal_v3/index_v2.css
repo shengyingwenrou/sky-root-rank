@@ -1,0 +1,96 @@
+@charset "utf-8";
+.body{background: #fff !important;width:100%;padding: 0px;
+  margin: 0 auto;}
+
+/** 图标  **/
+.logo{height: 1.72rem;margin-top: 0.14rem !important;margin: auto}
+.logo_div{ width:1.6rem;margin: auto;}
+.logo img{height:1.6rem;}
+.logo_name{width: 100%;  text-align: center; font-size: 0.5rem;  font-weight: bold;  color: #555; height: 0.6rem; line-height: 0.6rem;}
+
+/** 口号  **/
+.slogan {font-size: 0.42rem;  color: #666;  text-align: center; margin-top:0.1rem;height: 0.6rem; }
+.slogan div{height:0.56rem;}
+.slogan div[name='second']{margin-top:0.11rem; }
+
+/** 用户信息输入  **/
+.user_area {border: 1px solid #f5f0f0;width: 92%;border-radius: 8px;height: 172px;margin: auto; margin-top: 18px;}
+.user_area div[name='user_tel']{border-bottom: 1px solid #dedede;font-size: 0.36rem;height: 1.23rem;}
+.user_area div[name='user_pwd']{border-bottom: 1px solid #dedede;font-size: 0.36rem;height: 1.23rem;}
+.user_area input{outline: none; font-size: 0.46rem; background: transparent;  border: 0px;width: 100%;height:100%;}
+.user_code{width:5rem;height: 100%;}
+.user_get_code{width: 2.78rem;height: 100%;margin-top: 0.11rem;}
+.user_get_code button{height: 0.861rem;border-radius: 0.14rem;color: #757575;font-size: 0.34rem;width: 2.5rem; background: #ffffff; border: 1px solid #9e9e9e; margin-top:0.083rem;}
+
+.connect{height:1.39rem;}
+.connect button[name='connect']{height: 1.11rem;border-radius: 0.083rem;font-size: 0.416rem; outline: 0; background: #fff;
+  color: #0091f8; border: 0.027rem solid #0091f8;cursor: pointer; width:100%}
+
+
+/** 客户端版本下载 **/
+.download_area {width: 92%;border-radius: 0.222rem;height: 4.777rem;margin: auto;margin-top: 0.5rem;margin-bottom: 0.388rem; box-shadow: #e1e1e1 0 0 20px 1px;
+  -moz-box-shadow: #e1e1e1 0 0 20px 1px; -webkit-box-shadow: #e1e1e1 0 0 20px 1px;text-align: center;}
+.new_down_load_area{width:100%;height:1.666rem;text-align: center;margin-top: 0.388rem;}
+.download_area div[name='top_text']{height: 0.833rem;line-height: 0.833rem;font-size: 0.472rem;color: #555555;}
+.download_area span{font-size: 0.361rem;}
+.download_area button[name='top_outer']{
+  height: 1.388rem;border-radius: 0.722rem;font-size: 0.472rem;outline: none;border: 1px solid #F6753C;width: 8.333rem;margin: auto;
+  background: #F6753C;color: #ffffff; box-shadow: #e4c9bc 0px 5px 10px 0.2px;
+  -moz-box-shadow:#e4c9bc 0px 5px 10px 0.2px; -webkit-box-shadow:#e4c9bc 0px 5px 10px 0.2px;
+  /** *filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color="#333333"); **/}
+.new_down_load_area div[name='top']{font-size: 0.472rem;height: 100%;line-height: 1.388rem;}
+.back_F1F1F1{background: #F1F1F1;}
+.special_yellow_bag_tip {margin: 0 auto;top: -1.388rem;margin: 0 auto;background: url("../../images/portal_v3/icon_tj_new_nn.png") no-repeat right;
+  background-size: auto 1.444rem;background-position-y: -0.055rem;position: relative;width: 1.388rem;height: 1.388rem;
+  overflow: hidden;right: 1px;float: right;}
+.width_304{width:8.444rem; margin: auto;}
+
+/** 联系我们  **/
+.constract{height:1.111rem;min-width: 8.555rem;margin: auto;width:8.555rem;font-size: 0.36rem;margin-top:0.111rem; }
+.constract div[name='tel']{min-width: 4.277rem;width:4.277rem;}
+.tel_tip{background-position: right;background-image: url("../../images/portal_v3/icon_sy_dh.png");width: 0.611rem;  background-size: 0.555rem;  height: 0.944rem;  background-repeat: no-repeat;}
+.tel_num{width:3.611rem;text-align: left; height: 100%;line-height: 0.833rem;}
+.constract div[name='wechat']{height:100%;min-width: 4.277rem;width:4.277rem;}
+.wechat_tip{background-position: right;background-image: url("../../images/portal_v3/icon_sy_wx.png");width: 0.611rem;  background-size:0.555rem;  height: 0.944rem;  background-repeat: no-repeat;}
+.wechat_name{width:2.222rem;text-align: left; height: 100%;line-height: 0.833rem;}
+.constract a{color: #666666; text-decoration: underline;}
+.split_p{height:0.555rem;background: #f1f1f1;}
+
+/** 客户端介绍  **/
+.intro_part{height:0.833rem;color: #f6623c;font-size: 0.472rem;text-align: center;}
+.intro_part_desc {color: #757575;font-size: 0.333rem;text-align: center;}
+.intro_part_img img{width:100%;margin-top: 0.555rem;}
+.intro_part_download button{border-radius: 0.083rem;background: #f6623c;color:#ffffff;line-height:1.111rem;height:1.111rem;outline: none;border: none;width:5.555rem;margin-top: 0.833rem;}
+.intro_part_download div[name='d_button']{width: 5.555rem;margin: auto;}
+
+
+/** 高度  **/
+.height_52{height: 1.444rem;}
+.height_30{height: 0.8333rem;}
+.height_10{height: 0.277rem;}
+.height_40{height: 1.111rem;}
+.height_20{height: 0.555rem;}
+.height_16{height: 0.64rem;}
+.text_align{text-align: center;}
+.auto{margin: auto}
+.width89{width:89%;}
+
+
+/* input 浏览器兼容样式*/
+/* WebKit browsers */
+input::-webkit-input-placeholder {  color: #c4c4c4;  letter-spacing: 1px;  font-family: "Microsoft YaHei"!important;  font-size:0.40rem;}
+/* Mozilla Firefox 4 to 18 */
+input:-moz-placeholder {  color: #c4c4c4 !important;  letter-spacing: 1px;font-size:0.40rem;}
+/* Mozilla Firefox 19+ */
+input::-moz-placeholder {  color: #c4c4c4 !important;  letter-spacing: 1px;font-size:0.40rem;}
+/* Internet Explorer 10+ */
+input:-ms-input-placeholder {  color: #c4c4c4 !important;  letter-spacing: 1px;font-size:0.40rem;}
+/* Mozilla Firefox 4 to 18 */
+:-moz-placeholder {  color: #c4c4c4;  letter-spacing: 1px;font-size:0.40rem;}
+/* Mozilla Firefox 19+ */
+::-moz-placeholder {  color: #c4c4c4;  letter-spacing: 1px;font-size:0.40rem;}
+input:-ms-input-placeholder,textarea:-ms-input-placeholder {  color: #c4c4c4;  letter-spacing: 1px;font-size:0.40rem;}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {  color: #c4c4c4;  letter-spacing: 1px;font-size:0.40rem;}
+input:-webkit-autofill {  -webkit-box-shadow: 0 0 0px 1000px white inset;  -webkit-text-fill-color: #333;font-size:0.40rem;}
+
+
