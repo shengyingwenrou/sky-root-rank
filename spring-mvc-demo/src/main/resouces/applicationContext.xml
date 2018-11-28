@@ -45,14 +45,23 @@
         </property>
     </bean>
 
-
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="cn.com.admin"/>
         <property name="annotationClass" value="cn.com.magicwifi.framework.core.mybatis.MybatisDao"/>
     </bean>
 
-
     <bean  id="transactionalService" class="cn.com.admin.user.service.TransactionalService" scope="prototype"/>
+
+    
+    <bean  id="person" class="cn.com.admin.user.entity.Person" scope="prototype">
+        <property name="personService" ref="personService"></property>
+    </bean>
+    
+    <bean id="personService" class="cn.com.admin.user.service.PersonService">
+    </bean>
+
+    <bean  id="tools" class="cn.com.common.utils.Tools" scope="prototype" />
+
 
     <bean id="mybatisSqlDao" class="cn.com.magicwifi.framework.core.mybatis.MybatisSqlDao">
         <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
