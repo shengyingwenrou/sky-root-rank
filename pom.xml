@@ -23,6 +23,7 @@
         <module>spring-demo</module>
 
         <module>spring-mvc-demo</module>
+        <module>sky-resource</module>
 
 
     </modules>
